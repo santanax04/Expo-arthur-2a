@@ -1,12 +1,16 @@
-import { Text } from 'react-native';
-import { useRouter } from 'expo-router';
-import { Box } from '@/components/ui/box';
-import { SafeAreaView } from 'react-native-safe-area-context';
-export default function pagina1() {
-  const router = useRouter()
+import {
+  Text,
+  View,
+  StyleSheet,
+  ScrollView,
+  ImageBackground,
+} from 'react-native';
+
+export default function Pagina1() {
   return (
       <Box ClassName='flex-1' justifyContent='center' alignItems='center'>
         <Text className= 'uppercase font-extrabold'>página um</Text>
       </Box>
   );
 }
+
