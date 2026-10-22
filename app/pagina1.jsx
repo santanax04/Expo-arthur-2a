@@ -10,4 +10,3 @@ export default function pagina1() {
       </Box>
   );
 }
-
